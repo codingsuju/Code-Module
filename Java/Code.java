@@ -9,6 +9,10 @@ public class Code {
     public static void main(String[] args) {
         FastScanner fs=new FastScanner();
 		System.out.println("Hello world");
+		int a= fs.nextInt();
+		int b= fs.nextInt();
+		System.out.println(a);
+		System.out.println(b);
     }
     static final long mod=1_000_000_007;
     static long mul(long a, long b) {
@@ -75,3 +79,20 @@ public class Code {
     } 
     
 }
+cd C:\Users\sujud\Desktop\Code Module\Java
+call javac Code.java
+call java Code
+del Code.class
+pausecd C:\Users\sujud\Desktop\Code Module\Java
+call javac Code.java
+call java Code
+del Code.class
+pausecd C:\Users\sujud\Desktop\Code Module\Java
+call javac Code.java
+call java Code
+del Code.class
+pausecd C:\Users\sujud\Desktop\Code Module\Java
+call javac Code.java
+call java Code
+del Code.class
+pause
