@@ -1,7 +1,7 @@
 @echo off
 @setlocal
 cd %~dp0
-cd ../../Kotlin
+cd ../..
 set start=%time%
 :: Runs your command
 echo status:Compiling Code

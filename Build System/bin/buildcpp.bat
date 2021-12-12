@@ -1,7 +1,7 @@
 @echo off
 @setlocal
 cd %~dp0
-cd ../../C++
+cd ../..
 set start=%time%
 :: Runs your command
 echo status:compiling code
