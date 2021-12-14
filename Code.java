@@ -8,7 +8,6 @@ import java.util.StringTokenizer;
 public class Code {
     public static void main(String[] args) {
         FastScanner fs=new FastScanner();
-		System.out.println("Hello world");
     }
     static final long mod=1_000_000_007;
     static long mul(long a, long b) {

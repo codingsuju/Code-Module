@@ -1,7 +1,7 @@
 @echo off
 cd %~dp0
-set /p language=Enter language:
-set /p snips=Enter snippet name:
+set /p language=language:
+set /p snips=snippet:
 cd ../Snips
 cd %language%snippets
 type %snips%.%language% >> ../../Code.%language%
